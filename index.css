@@ -1,9 +1,9 @@
 body{
-    background-image: url('https://static.wikia.nocookie.net/disneyprincesas/images/1/14/Agrabah.png/revision/latest?cb=20170425030717&path-prefix=pt-br');
+    background-image: url('./Imagemcidadeagrabah.png');
     background-size: cover;
 }
 .divbdysucesso{
-    background-image: url('https://vortexcultural.com.br/images/2019/06/Aladdin-Universo-Expandido-Um.jpg');
+    background-image: url('./Aladdin.jpg');
     background-size: cover;
 }
 .divtitulo{
