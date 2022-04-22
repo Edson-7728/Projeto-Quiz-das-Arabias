@@ -1,0 +1,128 @@
+body{
+    background-image: url('https://static.wikia.nocookie.net/disneyprincesas/images/1/14/Agrabah.png/revision/latest?cb=20170425030717&path-prefix=pt-br');
+    background-size: cover;
+}
+.divbdysucesso{
+    background-image: url('https://vortexcultural.com.br/images/2019/06/Aladdin-Universo-Expandido-Um.jpg');
+    background-size: cover;
+}
+.divtitulo{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    color: goldenrod;
+}
+.divtxtinicial{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-family: 'Tangerine', cursive;
+    color: goldenrod;
+    background-color: darkblue;
+    border-radius: 15px;
+}
+.divbtniniciar{
+    display: flex;
+    justify-content: center;
+}
+
+.btniniciar{
+    margin: 7px;
+    border-radius: 15px;
+    font-family: 'Tangerine', cursive;
+    font-size: 75px;
+    color: goldenrod;
+    background-color: darkblue;
+}
+.regras{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    color: goldenrod;
+}
+.divexplica{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Tangerine', cursive;
+    color: goldenrod;
+    background-color: darkblue;
+    border-radius: 15px;
+}
+.divbtnregra{
+    display: flex;
+    justify-content: center;
+}
+.btnescolha{
+    margin: 7px;
+    border-radius: 15px;
+    font-family: 'Tangerine', cursive;
+    font-size: 75px;
+    color: goldenrod;
+    background-color: darkblue;
+}
+.divparabens{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    color: darkblue;
+}
+
+.divdobotnretornar{
+    display: flex;
+    justify-content: center;
+}
+.botnretornar{
+    margin: 7px;
+    border-radius: 15px;
+    font-family: 'Tangerine', cursive;
+    font-size: 75px;
+    color: goldenrod;
+    background-color: darkblue;
+}
+.divfim{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    color: white; 
+}
+.alladin{
+    width: 350px;
+    height: 350px;
+    border: solid darkblue 5px;
+    border-radius: 10px;
+}
+.divalladinpai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jasmine{
+    width: 350px;
+    height: 350px;
+    border: solid darkblue 5px;
+    border-radius: 10px;
+}
+.divjasminepai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.genio{
+    width: 350px;
+    height: 350px;
+    border: solid darkblue 5px;
+    border-radius: 10px;
+}
+.divgeniopai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.selecaoPersonagens{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
