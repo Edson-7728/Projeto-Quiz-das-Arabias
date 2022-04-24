@@ -4,8 +4,14 @@ function gotoregras (){
     window.location.href = pageregra;
 }
 
-function gototelaselec (){
-    var telaselec = ''
-    telaselec = 'selecao.html';
-    window.location.href = telaselec;
+function gotoselec (){
+    var pageselec = ''
+    pageselec = 'selecao.html';
+    window.location.href = pageselec;
+}
+
+function gotopaginic (){
+    var paginic = ''
+    paginic = 'index.html';
+    window.location.href = paginic;
 }

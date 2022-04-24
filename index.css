@@ -1,6 +1,15 @@
+*{
+    margin: 0;
+}
 body{
     background-image: url('./Imagemcidadeagrabah.png');
     background-size: cover;
+}
+footer{
+    font-size: 20px;
+    color: goldenrod;
+    text-align: center;
+    margin: 7px;
 }
 .divbdysucesso{
     background-image: url('./Aladdin.jpg');
@@ -22,6 +31,10 @@ body{
     background-color: darkblue;
     border-radius: 15px;
 }
+.txtinicial{
+    padding: 15px;
+    font-size: 55px;
+}
 .divbtniniciar{
     display: flex;
     justify-content: center;
@@ -35,17 +48,18 @@ body{
     color: goldenrod;
     background-color: darkblue;
 }
-.regras{
+.divregras{
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 100px;
     font-family: 'Tangerine', cursive;
     color: goldenrod;
 }
 .divexplica{
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    padding: 15px;
+    font-size: 55px;
     font-family: 'Tangerine', cursive;
     color: goldenrod;
     background-color: darkblue;
@@ -70,11 +84,11 @@ body{
     color: darkblue;
 }
 
-.divdobotnretornar{
+.divbtnretornar{
     display: flex;
     justify-content: center;
 }
-.botnretornar{
+.btnretornar{
     margin: 7px;
     border-radius: 15px;
     font-family: 'Tangerine', cursive;
@@ -88,6 +102,13 @@ body{
     font-family: 'Tangerine', cursive;
     color: white; 
 }
+.titulopagesel{
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    color: goldenrod;
+    font-size: 90px;
+
+}
 .alladin{
     width: 350px;
     height: 350px;
@@ -98,6 +119,19 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.divalladinnome{    
+    font-family: 'Tangerine', cursive;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 25px 5px 25px;
+    background-color: darkblue;
+    font-weight: 700;
+    font-size: 50px;
+}
+.alld{
+    text-decoration-line: none;    
+    color: goldenrod;
 }
 .jasmine{
     width: 350px;
@@ -110,6 +144,19 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.divjasminenome{
+    font-family: 'Tangerine', cursive;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 25px 5px 25px;
+    background-color: darkblue;
+    font-weight: 700;
+    font-size: 50px;
+}
+.jsm{
+    text-decoration-line: none;    
+    color: goldenrod;
+}
 .genio{
     width: 350px;
     height: 350px;
@@ -121,8 +168,106 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.divgenionome{
+    font-family: 'Tangerine', cursive;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 25px 5px 25px;
+    background-color: darkblue;
+    font-weight: 700;
+    font-size: 50px;
+}
+.gn{
+    text-decoration-line: none;    
+    color: goldenrod; 
+}
 .selecaoPersonagens{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
+.divpg1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    color: goldenrod;
+}
+.divatn1{
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: darkblue;
+    margin: 50px;
+}
+.divpg2{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    color: goldenrod;
+}
+.divatn2{
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: darkblue;
+    margin: 50px;
+}
+.divpg3{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    color: goldenrod;
+}
+.divatn3{
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: darkblue;
+    margin: 50px;
+}
+.divpg4{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    color: goldenrod;
+}
+.divatn4{
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: darkblue;
+    margin: 50px;
+}
+.divbtnrsp{
+    display: flex;
+    justify-content: center;
+}
+.btnrsp{
+    margin: 7px;
+    border-radius: 10px;
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    color: goldenrod;
+    background-color: darkblue;
+}
+
