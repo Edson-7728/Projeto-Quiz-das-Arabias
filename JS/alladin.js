@@ -1,51 +1,67 @@
         var alladinPgt = ''
         function alladinPergunta01(alternativa){
+            while(true){
             var alternativa = prompt('Digite a letra correspondente à sua resposta:')
             if(alternativa == 'd' || alternativa == 'D'){
                 alert('Certa Resposta!!! ')
-                alladinPgt = 'alladinP02.html'                    
+                alladinPgt = '../Projeto final módulo 1/Html/alladinP02.html' 
+                break                   
             } else{
                 alert('Esta você errou!!!')
-                alladinPgt = 'gameOver.html'                              
-            } 
+                alladinPgt = '../Projeto final módulo 1/Html/gameOver.html' 
+                break                             
+            }
+        }
             window.location.href = alladinPgt
         }
 
         
         
         function alladinPergunta02(alternativa){
+            while(true){
             var alternativa = prompt('Digite a letra correspondente à sua resposta:')
             if(alternativa == 'c' || alternativa == 'C'){
                 alert('Certa Resposta!!! ')
-                alladinPgt = 'alladinP03.html'                    
+                alladinPgt = '../Projeto final módulo 1/Html/alladinP03.html'
+                break                    
             } else{
                 alert('Esta você errou!!!')
-                alladinPgt = 'gameOver.html'                              
-            } 
+                alladinPgt = '../Projeto final módulo 1/Html/gameOver.html'
+                break                              
+            }
+        }
             window.location.href = alladinPgt
         }
         
         function alladinPergunta03(alternativa){
+            while(true){
             var alternativa = prompt('Digite a letra correspondente à sua resposta:')
             if(alternativa == 'a' || alternativa == 'A'){
                 alert('Certa Resposta!!! ')
-                alladinPgt = 'alladinP04.html'                    
+                alladinPgt = '../Projeto final módulo 1/Html/alladinP04.html'
+                break                   
             } else{
                 alert('Esta você errou!!!')
-                alladinPgt = 'gameOver.html'                              
+                alladinPgt = '../Projeto final módulo 1/Html/gameOver.html'
+                break                             
             } 
-            window.location.href = alladinPgt   
+        } 
+            window.location.href = alladinPgt
         }
         
         function alladinPergunta04(alternativa){
+            while(true){
             var alternativa = prompt('Digite a letra correspondente à sua resposta:')
             if(alternativa == 'b' || alternativa == 'B'){
                 alert('Certa Resposta!!! ')
-                alladinPgt = 'sucesso.html'                    
+                alladinPgt = '../Projeto final módulo 1/Html/sucesso.html'
+                break                   
             } else{
                 alert('Esta você errou!!!')
-                alladinPgt = 'gameOver.html'                              
+                alladinPgt = '../Projeto final módulo 1/Html/gameOver.html'
+                break                              
             } 
+        }
             window.location.href = alladinPgt
         }
 
