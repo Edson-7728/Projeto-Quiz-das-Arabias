@@ -4,11 +4,11 @@
                 var alternativa = prompt('Digite a letra correspondente à sua resposta:')
                 if(alternativa == 'a' || alternativa == 'A'){
                     alert('Certa Resposta!!! ')
-                    jasminePgt = 'jasmineP02.html'
+                    jasminePgt = '../Html/jasmineP02.html'
                     break                    
                 } else{
                     alert('Esta você errou!!!')
-                    jasminePgt = 'gameOver.html'
+                    jasminePgt = '../Html/gameOver.html'
                     break                             
                 } 
             }
@@ -20,11 +20,11 @@
                 var alternativa = prompt('Digite a letra correspondente à sua resposta:')
                 if(alternativa == 'b' || alternativa == 'B'){
                     alert('Certa Resposta!!! ')
-                    jasminePgt = 'jasmineP03.html'
+                    jasminePgt = '../Html/jasmineP03.html'
                     break                    
                 } else{
                     alert('Esta você errou!!!')
-                    jasminePgt = 'gameOver.html'
+                    jasminePgt = '../Html/gameOver.html'
                     break                              
                 } 
             }
@@ -36,11 +36,11 @@
                 var alternativa = prompt('Digite a letra correspondente à sua resposta:')
                 if(alternativa == 'c' || alternativa == 'C'){
                     alert('Certa Resposta!!! ')
-                    jasminePgt = 'jasmineP04.html'
+                    jasminePgt = '../Html/jasmineP04.html'
                     break                    
                 } else{
                     alert('Esta você errou!!!')
-                    jasminePgt = 'gameOver.html' 
+                    jasminePgt = '../Html/gameOver.html' 
                     break                             
                 } 
             }
@@ -52,11 +52,11 @@
                 var alternativa = prompt('Digite a letra correspondente à sua resposta:')
                 if(alternativa == 'b' || alternativa == 'D'){
                     alert('Certa Resposta!!! ')
-                    jasminePgt = 'sucesso.html'
+                    jasminePgt = '../Html/sucesso.html'
                     break                    
                 } else{
                     alert('Esta você errou!!!')
-                    jasminePgt = 'gameOver.html'
+                    jasminePgt = '../Html/gameOver.html'
                     break                             
                 } 
             }

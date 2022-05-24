@@ -4,11 +4,11 @@
             var alternativa = prompt('Digite a letra correspondente à sua resposta:')
             if(alternativa == 'd' || alternativa == 'D'){
                 alert('Certa Resposta!!! ')
-                alladinPgt = '../Projeto final módulo 1/Html/alladinP02.html' 
+                alladinPgt = '../Html/alladinP02.html' 
                 break                   
             } else{
                 alert('Esta você errou!!!')
-                alladinPgt = '../Projeto final módulo 1/Html/gameOver.html' 
+                alladinPgt = '../Html/gameOver.html' 
                 break                             
             }
         }
@@ -22,11 +22,11 @@
             var alternativa = prompt('Digite a letra correspondente à sua resposta:')
             if(alternativa == 'c' || alternativa == 'C'){
                 alert('Certa Resposta!!! ')
-                alladinPgt = '../Projeto final módulo 1/Html/alladinP03.html'
+                alladinPgt = '../Html/alladinP03.html'
                 break                    
             } else{
                 alert('Esta você errou!!!')
-                alladinPgt = '../Projeto final módulo 1/Html/gameOver.html'
+                alladinPgt = '../Html/gameOver.html'
                 break                              
             }
         }
@@ -38,11 +38,11 @@
             var alternativa = prompt('Digite a letra correspondente à sua resposta:')
             if(alternativa == 'a' || alternativa == 'A'){
                 alert('Certa Resposta!!! ')
-                alladinPgt = '../Projeto final módulo 1/Html/alladinP04.html'
+                alladinPgt = '../Html/alladinP04.html'
                 break                   
             } else{
                 alert('Esta você errou!!!')
-                alladinPgt = '../Projeto final módulo 1/Html/gameOver.html'
+                alladinPgt = '../Html/gameOver.html'
                 break                             
             } 
         } 
@@ -54,11 +54,11 @@
             var alternativa = prompt('Digite a letra correspondente à sua resposta:')
             if(alternativa == 'b' || alternativa == 'B'){
                 alert('Certa Resposta!!! ')
-                alladinPgt = '../Projeto final módulo 1/Html/sucesso.html'
+                alladinPgt = '../Html/sucesso.html'
                 break                   
             } else{
                 alert('Esta você errou!!!')
-                alladinPgt = '../Projeto final módulo 1/Html/gameOver.html'
+                alladinPgt = '../Html/gameOver.html'
                 break                              
             } 
         }

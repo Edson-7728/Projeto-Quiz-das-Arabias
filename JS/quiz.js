@@ -1,6 +1,6 @@
 function gotoregras (){
     var pageregra = ''
-    pageregra = 'regras.html';
+    pageregra = 'Html/regras.html';
     window.location.href = pageregra;
 }
 
@@ -12,6 +12,6 @@ function gotoselec (){
 
 function gotopaginic (){
     var paginic = ''
-    paginic = 'index.html';
+    paginic = '../index.html';
     window.location.href = paginic;
 }

@@ -4,11 +4,11 @@ function genioPergunta01(alternativa){
         var alternativa = prompt('Digite a letra correspondente à sua resposta:')
         if(alternativa == 'b' || alternativa == 'B'){
             alert('Certa Resposta!!! ')
-            genioPgt = '../Projeto final módulo 1/Html/genioP02.html'
+            genioPgt = '../Html/genioP02.html'
             break                    
         } else{
             alert('Esta você errou!!!')
-            genioPgt = '../Projeto final módulo 1/Html/gameOver.html'
+            genioPgt = '../Html/gameOver.html'
             break                              
         } 
     }
@@ -20,11 +20,11 @@ function genioPergunta02(alternativa){
         var alternativa = prompt('Digite a letra correspondente à sua resposta:')
         if(alternativa == 'b' || alternativa == 'B'){
             alert('Certa Resposta!!! ')
-            genioPgt = '../Projeto final módulo 1/Html/genioP03.html'
+            genioPgt = '../Html/genioP03.html'
             break                    
         } else{
             alert('Esta você errou!!!')
-            genioPgt = '../Projeto final módulo 1/Html/gameOver.html'
+            genioPgt = '../Html/gameOver.html'
             break                              
         } 
     }
@@ -37,11 +37,11 @@ function genioPergunta03(alternativa){
         var alternativa = prompt('Digite a letra correspondente à sua resposta:')
         if(alternativa == 'c' || alternativa == 'C'){
             alert('Certa Resposta!!! ')
-            genioPgt = '../Projeto final módulo 1/Html/genioP04.html'
+            genioPgt = '../Html/genioP04.html'
             break                    
         } else{
             alert('Esta você errou!!!')
-            genioPgt = '../Projeto final módulo 1/Html/gameOver.html'
+            genioPgt = '../Html/gameOver.html'
             break                              
         } 
     }
@@ -53,11 +53,11 @@ function genioPergunta04(alternativa){
         var alternativa = prompt('Digite a letra correspondente à sua resposta:')
         if(alternativa == 'c' || alternativa == 'C'){
             alert('Certa Resposta!!! ')
-            genioPgt = '../Projeto final módulo 1/Html/sucesso.html' 
+            genioPgt = '../Html/sucesso.html' 
             break                   
         } else{
             alert('Esta você errou!!!')
-            genioPgt = '../Projeto final módulo 1/Html/gameOver.html'
+            genioPgt = '../Html/gameOver.html'
             break                              
         } 
     }
