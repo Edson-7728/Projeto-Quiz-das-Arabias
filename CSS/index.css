@@ -5,6 +5,11 @@ body{
     background-image: url('../Images/Imagemcidadeagrabah.png');
     background-size: cover;
 }
+header {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
 footer{
     font-size: 20px;
     color: goldenrod;
@@ -12,6 +17,9 @@ footer{
     margin: 7px;
 }
 .divbdysucesso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url('../Images/Aladdin.jpg');
     background-size: cover;
 }
@@ -28,8 +36,9 @@ footer{
     font-size: 22px;
     font-family: 'Tangerine', cursive;
     color: goldenrod;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836);
     border-radius: 15px;
+    width: 90%;
 }
 .txtinicial{
     padding: 15px;
@@ -46,7 +55,7 @@ footer{
     font-family: 'Tangerine', cursive;
     font-size: 75px;
     color: goldenrod;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836);
 }
 .divregras{
     display: flex;
@@ -55,6 +64,11 @@ footer{
     font-family: 'Tangerine', cursive;
     color: goldenrod;
 }
+.divcaixa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .divexplica{
     display: flex;
     justify-content: center;
@@ -62,8 +76,9 @@ footer{
     font-size: 55px;
     font-family: 'Tangerine', cursive;
     color: goldenrod;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836);
     border-radius: 15px;
+    width: 90%;
 }
 .divbtnregra{
     display: flex;
@@ -75,10 +90,15 @@ footer{
     font-family: 'Tangerine', cursive;
     font-size: 75px;
     color: goldenrod;
-    background-color: darkblue;
+    margin-top: 10%;
+    background-color: rgba(51, 30, 145, 0.836);
 }
 .divparabens{
-    margin-top: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(51, 30, 145, 0.836);
+    margin-top: 3%;
+    width: 85%;
     text-align: center;
     font-size: 50px;
     font-family: 'Tangerine', cursive;
@@ -97,7 +117,7 @@ footer{
     font-size: 45px;
     padding: 15px;
     color: goldenrod;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836);
 }
 .divbdyfdj{
     background-image: url('../Images/Jafar.jpg');
@@ -133,7 +153,7 @@ footer{
     border: none;
     border-radius: 10px;
     padding: 5px 25px 5px 25px;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836);
     font-weight: 700;
     font-size: 50px;
 }
@@ -157,7 +177,7 @@ footer{
     border: none;
     border-radius: 10px;
     padding: 5px 25px 5px 25px;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836);
     font-weight: 700;
     font-size: 50px;
 }
@@ -181,7 +201,7 @@ footer{
     border: none;
     border-radius: 10px;
     padding: 5px 25px 5px 25px;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836);
     font-weight: 700;
     font-size: 50px;
 }
@@ -209,7 +229,7 @@ footer{
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836); 
     margin: 50px;
 }
 .divpg2{
@@ -227,7 +247,7 @@ footer{
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836);
     margin: 50px;
 }
 .divpg3{
@@ -245,7 +265,7 @@ footer{
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836);
     margin: 50px;
 }
 .divpg4{
@@ -263,7 +283,7 @@ footer{
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836);
     margin: 50px;
 }
 .divbtnrsp{
@@ -276,6 +296,6 @@ footer{
     font-family: 'Tangerine', cursive;
     font-size: 35px;
     color: goldenrod;
-    background-color: darkblue;
+    background-color: rgba(51, 30, 145, 0.836);
 }
 
